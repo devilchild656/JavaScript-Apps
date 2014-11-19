@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var body = $("body");
+            var p = "<p>I love jQuery</p>";
+            $("body").append("<p>Heloo</p>");
+            body.append(p);
+            body.remove("div");
+        });
+    </script>
+
+<body id="pesho">
+    <p>pesho</p>
+    <div class="new"></div>
+</body>
+</html>
